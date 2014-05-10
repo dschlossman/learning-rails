@@ -17,4 +17,8 @@ class Owner
 		 countdown = (birthday.next_year - today).to_i
 		end
 	end
+
+	def birthdateformatted
+		birthdateformatted = birthdate.strftime('%a %d %b %Y')	
+	end
 end
